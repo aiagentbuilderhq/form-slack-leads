@@ -1,0 +1,10 @@
+{
+  "name": "Form \u2192 Slack Lead Alerts \u2014 Instant Webhook",
+  "description": "Google Forms API + Webhook \u2192 Slack API + Gmail API confirmation",
+  "modules": [
+    "Google Forms: Watch Responses (Forms API + Webhook)",
+    "Slack: Create a Message (Slack API)",
+    "Gmail: Send Email (Gmail API)"
+  ],
+  "note": "Replace YOUR_CONNECTION_ID. Webhook gives instant trigger (<60 sec) vs polling (15 min on free tier)"
+}
